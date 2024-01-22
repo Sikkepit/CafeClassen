@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/f4f8cf3fb4.js" crossorigin="anonymous"></script>           
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Cafe Classen - Arnhem</title>
+</head>
+<body>
+    <header id="header">
+        <div id="header-content">
+            <div id="logo">
+                <a href="index.html"><img class="logo-classen" src="img/logo_small.png" alt="Logo van Cafe Classen"></a>
+            </div>
+            <nav id="navigation">
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="vacature.html">Vacature</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="mobile-nav">
+            <a href="index.html" class="active"><img class="logo-classen" src="img/logo_small.png" alt="Logo van Cafe Classen"></a>
+            <div id="mobile-links">
+                <a href="index.html">Home</a>
+                <a href="agenda.html">Agenda</a>
+                <a href="vacature.html">Vacature</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+</header>
+    <main id="container">
+        <section id="news-wrapper" class="mobile-background agenda-mobile-background">
+            <section class="smaller-photo" id="agenda-photo"></section> 
+            <section id="news-items" class="create-room news-items-overlay">
+                <article>
+                    <h1>Live Muziek en meer</h1>
+                    <p>Café Classen is het gezelligste bruine café van Arnhem met een uitgebreide bierkaart en veel muziek. Overdag is het een huiskamer voor al onze (stam)gasten, maar ook in de avonden is er van alles te beleven.</p>
+                    <p>Zo is er op dinsdagavond een (jazz)jamsessie, speelt er drie vrijdagavonden een band en wordt er een vrijdagavond per maand gedanst tijdens ‘Danzen bij Classen’. Ook organiseren we twee keer per maand iets op zaterdag, zoals karaoke, muziek of een popquiz. Hieronder vind je het complete programma.   </p>
+                </article>
+            </section>
+        </section>
+        <section id="agenda-wrapper" class="create-room">  
+            <section id="agenda">
+                <h2 class="hidden">Agenda</h2>
+                <article class="event-article hidden">
+                    <header class="event-header"><span class="event-date">Vr 1 Dec</span><h3 class="event-name">Bella Blues</h3>
+                        <span class="event-time">21.30 uur</span></header>
+                    <p class="event-content">Livemuziek: blues(rock). Gratis entree</p>
+                </article>
+                <article class="event-article hidden">
+                    <header class="event-header"><span class="event-date">Za 2 Dec</span><h3 class="event-name">Karaoke</h3>
+                        <span class="event-time">19.00 uur</span></header>
+                    <p class="event-content">Meer dan 6.000 liedjes om uit te kiezen!</p>
+                </article>
+                <article class="event-article hidden">
+                    <header class="event-header"><span class="event-date">Vr 8 Dec</span><h3 class="event-name">Join The Wolfpack</h3>
+                        <span class="event-time">21.30 uur</span></header>
+                    <p class="event-content">Livemuziek. Gratis entree</p>
+                </article>
+                <article class="event-article hidden">
+                    <header class="event-header"><span class="event-date">Vr 15 Dec</span><h3 class="event-name">John Hayes Project</h3>
+                        <span class="event-time">21.30 uur</span></header>
+                    <p class="event-content">Livemuziek: blues(rock). Gratis entree</p>
+                </article>
+            </section>
+            <section id="openingstijden">
+                <h2>Info</h2>
+                <p>
+                    <h3>Adres:</h3>
+                    <a href="https://maps.app.goo.gl/p54b6A19FBw84UDK9" target="_blank">Beekstraat 25, 6811 DV Arnhem</a>
+                    <h3>Openingstijden:</h3>
+                    <table>
+                        <tr>
+                            <td>Maandag:</td>
+                            <td>12:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Dinsdag:</td>
+                            <td>12:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Woensdag:</td>
+                            <td>12:00 - 00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Donderdag:</td>
+                            <td>12:00 - 00:00</td>
+                        </tr>
+                        <tr>
+                            <td>Vrijdag:</td>
+                            <td>12:00 - 02:00</td>
+                        </tr>
+                        <tr>
+                            <td>Zaterdag:</td>
+                            <td>12:00 - 01:00</td>
+                        </tr>
+                        <tr>
+                            <td>Zondag:</td>
+                            <td>Gesloten</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h3>Contact:</h3>
+                    <p>Wil jij samen met jouw band optreden tijdens Classen Live op vrijdagavond? Stuur ons dan een e-mail met beeldmateriaal en info en wij nemen z.s.m. contact met je op.</p>
+                    <p><a href="mailto:arnhem@cafeclassen.nl">arnhem@cafeclassen.nl</a></p>
+            </section>
+        </section>
+    </main>
+    <footer id="footer">
+        <section id="footer-content">
+            <a href="https://www.facebook.com/CafeClassen" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/cafeclassenarnhem/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="mailto:arnhem@cafeclassen.nl" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </section>
+        <p>Website door Dennis Hemstra</p>
+    </footer>
+<script defer src="script.js"></script>
+</body>
+</html>
